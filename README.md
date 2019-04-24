@@ -45,7 +45,7 @@ My next step is to create conditions whether the lenghts of the first and second
 ```
 
 
-##Full Code
+## Full Code
 Here is my full code for the Hamming problem.
  
 ```rust
