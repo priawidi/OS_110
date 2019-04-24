@@ -31,15 +31,16 @@ My next step is to create conditions whether the lenghts of the first and second
 The final result is the count variable which define the sum of the mistakes from the DNA matching.
 
 ``` rust
-    if len1 == len2{
-        for a in 0.. list.len(){
+    
+    if len1 == len2{ 
+        for a in 0.. list.len(){ // this loop for iterate the conditions
             if list[a] != list1[a]{
                     
-                    Some(count= count+1);
+                    Some(count= count+1); // if the given condition are met, the counter will increment
                 }
             
         }
-        Some(count)
+        Some(count) //return the counter result
     }
     else{
         None
