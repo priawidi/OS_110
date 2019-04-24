@@ -26,7 +26,9 @@ This kind of essay is to fulfill a task for Operating System course. I choose Ha
         list1.push(x)    //insert each char element into other empty 'vec'
     }
  ```
-My next step is to create conditions whether the lenghts of the first and second DNA are the same or not. If the lenghts are match, the progress is continue into iteration of the condition. If the elements of the first DNA didn't match the second DNA elements, it will return Some(count+=1). Since its using Option types, the return must be Some or None. The condition will return None if the requirement didn't match.
+My next step is to create conditions whether the lenghts of the first and second DNA are the same or not. If the lenghts are match, the progress is continue into iteration of the condition. If the elements of the first DNA didn't match the second DNA elements, it will return Some(count+=1). Since its using Option types, the return must be Some or None. The condition will return None if the requirement didn't match. 
+
+The final result is the count variable which define the sum of the mistakes from the DNA matching.
 
 ``` rust
     if len1 == len2{
